@@ -65,7 +65,7 @@ public class User {
 
     public static void main(String[] args) {
         //user hợp lệ
-        User u1 = new User("U01", "tuan", "tuan@gmail.com", "123456");
+        User u1 = new User("U01", "minh", "minh@gmail.com", "123456");
         u1.displayInfo();
 
         //user sai email
@@ -78,3 +78,4 @@ public class User {
 
     }
 }
+
