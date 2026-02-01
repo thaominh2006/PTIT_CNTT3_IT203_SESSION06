@@ -22,12 +22,13 @@ public class Account {
     }
 
     public static void main(String[] args) {
-        Account acc=new Account("tuanto1806", "tuan123", "tat@gmail.com");
+        Account acc=new Account("thaominh2401", "minh123", "minh@gmail.com");
         // thog tin ban dau
         acc.displayInfo();
         // doi matkhau
-        acc.changePassword("tuan1806");
+        acc.changePassword("minh2401");
 
         acc.displayInfo();
     }
 }
+
