@@ -19,7 +19,8 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student s1= new Student("D24100", "To Anh Tun", 2006, 10.0);
+        Student s1= new Student("D24100", "Do Thao Minh", 2006, 10.0);
         s1.displayInfo();
     }
 }
+
